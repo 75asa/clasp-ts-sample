@@ -1,3 +1,7 @@
+export const hoge = () => {
+  console.log("hige");
+};
+
 function main() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   const today = Utilities.formatDate(new Date(), "JST", "yyyy/MM/DD");

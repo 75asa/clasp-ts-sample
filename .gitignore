@@ -1,2 +1,4 @@
 .clasp.json
 .env
+creds.json
+.clasprc.json
