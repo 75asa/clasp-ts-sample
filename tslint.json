@@ -1,21 +1,21 @@
 {
-  "defaultServerity": "error",
-  "extends": [
-    "tslint:recommended",
-    "tslint-conifg-prettier"
-  ],
-  "jsRules": {},
-  "rules": {
-    "semicolon": [
-      true,
-      "always"
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
     ],
-    "prettier": true,
-    "no-console": [
-      false
+    "jsRules": {},
+    "rules": {
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "prettier": true,
+        "no-console": [
+            false
+        ]
+    },
+    "rulesDirectory": [
+        "tslint-plugin-prettier"
     ]
-  },
-  "rulesDirectory" [
-    "tslint-plugin-prettier"
-  ]
 }
